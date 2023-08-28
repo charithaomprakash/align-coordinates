@@ -1,0 +1,22 @@
+# ET_helping_behaviorn.yaml
+
+
+# install: conda env create -f align_coordinates.yaml
+# update:  conda env update -f align_coordinates.yaml
+name: ET_helping_behavior
+channels:
+  - anaconda
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - pytest-shutil
+    - numpy
+    - spyder
+    - matplotlib
+    - pathlib
+    - pandas
+    - seaborn
+    - ruamel.yaml
+
