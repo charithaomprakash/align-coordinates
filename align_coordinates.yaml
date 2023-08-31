@@ -1,9 +1,9 @@
-# ET_helping_behaviorn.yaml
+# align_coordinates.yaml
 
 
 # install: conda env create -f align_coordinates.yaml
 # update:  conda env update -f align_coordinates.yaml
-name: ET_helping_behavior
+name: align_coordinates
 channels:
   - anaconda
   - defaults
