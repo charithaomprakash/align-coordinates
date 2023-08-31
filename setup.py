@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="ET_helping_behavior",
+    name="align?coordinates",
     version='1.0',
     packages=find_packages(),
     entry_points={"console_scripts": "align_coordinates = align_coordinates:main"},
